@@ -1,5 +1,5 @@
 # CCTech-YouFrame
-Full-stack online photo-sharing application named "YouFrame"
+Photo-sharing application named "YouFrame"
 
 #### YouFrame:
 
