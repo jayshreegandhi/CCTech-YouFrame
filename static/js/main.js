@@ -56,7 +56,7 @@ function showImage(event) {
 function createImage(imagePath) {
     //creating the grid element and appending it
     const image = document.createElement('img');
-    image.src = "/static/images/" + imagePath;
+    image.src = imagePath;
     image.id = imagePath;
     image.alt = imagePath;
     image.className = 'preview-img';
