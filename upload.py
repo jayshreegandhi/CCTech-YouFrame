@@ -15,6 +15,10 @@ def main_page():
 @app.route('/data')
 def filelist():
     data = os.listdir(app.config['UPLOAD_FOLDER'])
+    for fileNameIndex in range(len(data)):
+        fileName = data[fileNameIndex]
+        fileName = "/static/images/" + fileName
+        data[fileNameIndex] = fileName
     print(json.dumps(data))
     return json.dumps(data)
     
