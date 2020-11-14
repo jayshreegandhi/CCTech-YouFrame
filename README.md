@@ -15,6 +15,9 @@ Photo-sharing application named "YouFrame"
 #### Mobile View
 <img src="Mobile View.png" height="300" alt="Mobile Layout">
 
+#### Image ID
+<img src="id.png" height="300" alt="Mobile Layout">
+
 ### Technical Info
 #### Front-End
 - The Front-End is made using plain HTML/CSS/JS.
