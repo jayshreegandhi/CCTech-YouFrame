@@ -6,10 +6,11 @@ import json
 app = Flask(__name__)
 # prevent caching static files
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
-app.config['UPLOAD_FOLDER'] = "F:\\CCTech - Copy\\static\\images"
+app.config['UPLOAD_FOLDER'] = os.getcwd() + "\\static\\images"
 
 @app.route('/')
 def main_page():
+    print(app.config['UPLOAD_FOLDER'])
     return render_template('index.html')
 
 @app.route('/data')
