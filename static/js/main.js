@@ -3,7 +3,6 @@ function main() {
         .then(response => response.json())
         .then(jsonList => {
             jsonList.forEach(imagePath => {
-                console.log(imagePath);
                 createImage(imagePath);
             });
         });
