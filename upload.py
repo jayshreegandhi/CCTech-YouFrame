@@ -10,7 +10,6 @@ app.config['UPLOAD_FOLDER'] = os.getcwd() + "\\static\\images"
 
 @app.route('/')
 def main_page():
-    print(app.config['UPLOAD_FOLDER'])
     return render_template('index.html')
 
 @app.route('/data')
@@ -20,7 +19,6 @@ def filelist():
         fileName = data[fileNameIndex]
         fileName = "/static/images/" + fileName
         data[fileNameIndex] = fileName
-    print(json.dumps(data))
     return json.dumps(data)
     
 
