@@ -47,6 +47,6 @@ Full-stack online photo-sharing application named "YouFrame"
 #### Executing program
 - Run the upload.py file through command prompt:
 ```
-    python.exe filename.py
+    python.exe upload.py
 ```
 - Go to http://127.0.0.1:5000/ to run the application!
