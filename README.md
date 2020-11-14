@@ -8,26 +8,28 @@ Full-stack online photo-sharing application named "YouFrame"
 - On successful upload, this new photo appears at the 1st tile, shifting all other photos by 1 position
 
 ### References for UI
+
 #### Desktop View
 <img src="Desktop View.png" height="300" alt="Desktop Layout">
+
 #### Mobile View
 <img src="Mobile View.png" height="300" alt="Mobile Layout">
 
-#### Technical Info
+### Technical Info
 
-### Front-End
+#### Front-End
 - The Front-End is made using plain HTML/CSS/JS
 
-### Back-End
+#### Back-End
 - The Back-End is made using Python-Flask
 
-### Work Flow:
+#### Work Flow:
 - The image file is uploaded through the webpage.
 - Javascript handles the uploading of the files and sending them to python server
 - The server stores the uploaded image files. It also provieds the stored images back to javascript to view all the uploaded files.
 
-### Pre requisites to run the application:
-### Python
+#### Pre requisites to run the application:
+#### Python
 
 - Download Python Installer from https://www.python.org/downloads/ and execute it.
 - Make sure you select the Install launcher for all users and Add Python to PATH checkbox.
@@ -43,7 +45,7 @@ Full-stack online photo-sharing application named "YouFrame"
 ```
     set FLASK_ENV=development
 ```
-### Executing program
+#### Executing program
 - Run the upload.py file through command prompt:
 ```
     python.exe filename.py
